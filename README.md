@@ -3,10 +3,8 @@
 > **Prototipo del reto de diseño de Product Designer para Idilio TV.**
 > Este repositorio contiene únicamente el POC. El diagnóstico, la estrategia, el diseño y el
 > registro de decisiones viven en el entregable completo.
->
-> **La intervención:** el muro de desbloqueo deja de ser un callejón sin salida y pasa a ser
-> la única superficie donde el usuario ve, en el momento en que le importa, cuánto tiene,
-> de dónde sale lo que no compró, cuánto le falta y qué gana si vuelve mañana.
+
+**▶ En vivo: [gabrielardzj.github.io/idilio-racha-de-noches-poc](https://gabrielardzj.github.io/idilio-racha-de-noches-poc/)**
 
 Prototipo funcional (no un click-through): la economía está implementada de verdad en un
 motor puro y testeado, y la interfaz solo la refleja.
