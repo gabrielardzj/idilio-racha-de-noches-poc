@@ -1,11 +1,5 @@
 # Racha de Noches · Reto de diseño Idilio TV
 
-**▶ POC en vivo: [gabrielardzj.github.io/idilio-racha-de-noches-poc](https://gabrielardzj.github.io/idilio-racha-de-noches-poc/)** · ábrelo en el móvil
-
-> Este repositorio **es el entregable**: los cuatro puntos del brief están aquí, más el
-> benchmark de la categoría, el modelo de sensibilidad del objetivo, el export de flujos y la
-> preparación de la sesión de cierre.
-
 > **¿Cómo podríamos usar mecánicas de gamificación para que volver a Idilio forme parte natural de la experiencia de ver microdramas?**
 
 ---
@@ -33,6 +27,7 @@
 | — | **Modelo de sensibilidad** del objetivo | [`docs/modelo/`](docs/modelo/README.md) | — |
 | — | **Preparación de la sesión de cierre** (recorrido + preguntas difíciles) | [`docs/07-sesion-de-cierre.md`](docs/07-sesion-de-cierre.md) | — |
 | — | **Export tipo Mobbin** (pantallas, flujos y patrones) | [`export/`](export/) | — |
+| — | **Anexos**: tokens extraídos del producto y registro de uso | [`docs/anexos/`](docs/anexos/) | — |
 
 ---
 
