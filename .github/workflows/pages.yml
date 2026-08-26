@@ -1,4 +1,4 @@
-name: Desplegar
+name: Desplegar POC
 
 on:
   push:
@@ -23,15 +23,20 @@ jobs:
         with:
           node-version: 22
           cache: npm
+          cache-dependency-path: poc/package-lock.json
       - run: npm ci
+        working-directory: poc
+      # Si la economía se rompe, no se publica.
       - run: npx vitest run
+        working-directory: poc
       - run: npm run build
+        working-directory: poc
         env:
           VITE_BASE: /idilio-racha-de-noches-poc/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: poc/dist
 
   deploy:
     needs: build
